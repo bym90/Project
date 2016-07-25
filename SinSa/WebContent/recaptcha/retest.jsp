@@ -11,7 +11,7 @@
 <script>
 $(function(){
 	//Site key
-	var siteKey = "구글에서 발급받은 site key";
+	var siteKey = "6LcN4yUTAAAAAKyi3j-yJtjGIWFiAkWEuet1h1v5";
 	var div = "recaptcha";
 	Recaptcha.create(siteKey, div, {theme: "red"});
 	$("#recaptchaCheck").click(function(){

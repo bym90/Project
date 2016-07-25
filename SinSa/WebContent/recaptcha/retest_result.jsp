@@ -1,7 +1,7 @@
 ﻿<%@ page contentType="text/html; charset=utf-8" language="java" import="net.tanesha.recaptcha.*" errorPage="" %><%
 	String check = "Y";
 	ReCaptchaImpl reCaptcha = new ReCaptchaImpl();
-	reCaptcha.setPrivateKey("구글에서 받은 private key");
+	reCaptcha.setPrivateKey("6LcN4yUTAAAAABt4OLJaO_-XoDg0kqqijYtF7dVn");
 	String host = request.getParameter("host");
 	String challenge = request.getParameter("challenge");
 	String res = request.getParameter("response");
