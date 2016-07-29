@@ -1,0 +1,4 @@
+header {position: relative; height: 280px; background-image: url("../Picture/pikachu.png");}
+section {position: relative; height: 500px; background: #fffff;}
+aside {float: left; height: 500px; width: 200px; background: #ffcc00;}
+footer {height: 80px; background: #0099ff;}

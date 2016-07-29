@@ -20,7 +20,7 @@ $(function(){
 		var host = $(location).attr('host');
 		$.ajax({
 			type: "POST",
-			url: "<%=request.getContextPath()%>/recaptcha/retest_result.jsp",
+			url: "<%=request.getContextPath()%>/ReCaptcha/retest_result.jsp",
 			async: false,
 			data: {
 				host: host,
